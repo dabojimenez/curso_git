@@ -9,3 +9,13 @@ Git despues de ecribir el comando, nos pregunta que quien eres?, y nos da dos co
   git config --global user.email "tuCorreo@correo.com"    ---> Para configurar el correo
   git config --global user.name "Tu nombre"               ---> Para configurar el nombre
 SI COMETIMOS UN ERROR, BASTA CON VOLVER A ESCRIBIR LA MISMA LINEA DE COMANDO PERO ESTA VEZ DE MANERA CORRECTA
+6) Ahora, aparecera un editor de texto, practicamente la pantalla o el diseño cambiara, no te preocupes, aqui podras realziar o escribir un mensaje significativo que represente a tu commit
+Si en caso estas en windows, linux o MacOS, y tienes un editor de texto llamado Viem, no te preocupes:
+  NOTA: Si tecleas y no puedes escribir, preciona la letra i, para hacerlo
+  i: si pulsas la letra (i), podras insertar texto o podras teclear tu mensaje
+  Esc: Si pulsas la tecla (Esc), podras dejar de insertar tu texto, para consiguiente poder salir
+  :wq : Si escibis (:wq), podras salir del editor de texto llamado Viem
+6) Ahora con (git log), podremos ver de forma mucho mas extensa todos los commit que hemos realizado
+7) si escribirmos (git status), nos mostrara un mensaje indicanos que no hay archivos para poder realizar commit, pero si realizamos un cmabio en cualquier archivo
+podremos usar el comando (git restore <nombreArchivo>), podremos ver de manera inmediata que dicho archivo regresara al punto donde se realizo el primer commit y se perdera dicho cambio si haberlo guardado
+8) COn el comando (git diff <nombreArchivo>), nos mostrara la diferencia o los cambios relizados en dicho archivo
