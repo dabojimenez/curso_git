@@ -22,3 +22,9 @@ podremos usar el comando (git restore <nombreArchivo>), podremos ver de manera i
 9) Ahora si tenemos archivos o carpetas que no queremos subir, que no queremos mostrar en nuestro repositorio, debemos crear un archivo llamado {.gitignore}
 ahora si escribimos (git status), nos mostrara dicho archivo en rojo, nuestro {.gitignore}
 10) Para evitar ingregsar a ese editor de texto y complicarnos todo, podemos ejecutar el siguiente comando (git commit -m "Mensaje significativo y sin interar al editor")
+11) AHora debemos crearnos una cuenta en GitHub O GitLab, debemso crear un nuevo repositorio y todo lo que nos pide n los distintos repositorios remotos
+Una ves termiando, nos dara unas lineas de comando, para crear nuestro repositorio, algunas ya fueron usadas pero existe una en particular que debemos usar
+es una semenjate a esta {git remote add origin https://github.com/TU_NOMBRE/NOMBRE_DE_TU_REPOSITORIO.git}, para este ejemplo use GitHub
+  TU_NOMBRE: Nos aparecera nuestro nombre inidcado en nuestra cuenta de GitLab o GitHub
+  NOMBRE_DE_TU_REPOSITORIO: Es el nombre del repositorio que tu le diste al momento de crear dicho repositorio
+  .git: Si o si debe ser (.git) el link o url, para que funcione, si al momento de escribirla o pegarla en la terminal no tienes, procura no dar enter y copiar de manra CORRECTA
