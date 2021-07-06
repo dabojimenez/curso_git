@@ -15,10 +15,13 @@ Si en caso estas en windows, linux o MacOS, y tienes un editor de texto llamado 
   i: si pulsas la letra (i), podras insertar texto o podras teclear tu mensaje
   Esc: Si pulsas la tecla (Esc), podras dejar de insertar tu texto, para consiguiente poder salir
   :wq : Si escibis (:wq), podras salir del editor de texto llamado Viem
-6) Ahora con (git log), podremos ver de forma mucho mas extensa todos los commit que hemos realizado
+6) Ahora con (git log), podremos ver de forma mucho mas extensa todos los commit que hemos realizado, si el caso fuera solo con la tecla (q) salimos
 7) si escribirmos (git status), nos mostrara un mensaje indicanos que no hay archivos para poder realizar commit, pero si realizamos un cmabio en cualquier archivo
 podremos usar el comando (git restore <nombreArchivo>), podremos ver de manera inmediata que dicho archivo regresara al punto donde se realizo el primer commit y se perdera dicho cambio si haberlo guardado
 8) COn el comando (git diff <nombreArchivo>), nos mostrara la diferencia o los cambios relizados en dicho archivo
 9) Ahora si tenemos archivos o carpetas que no queremos subir, que no queremos mostrar en nuestro repositorio, debemos crear un archivo llamado {.gitignore}
 ahora si escribimos (git status), nos mostrara dicho archivo en rojo, nuestro {.gitignore}
 10) Para evitar ingregsar a ese editor de texto y complicarnos todo, podemos ejecutar el siguiente comando (git commit -m "Mensaje significativo y sin interar al editor")
+11) Con el comando (git branch), nos mostrara las ramas o los proyectos que tengo, y el nombre de color verde es el que nos indica sobre que branch estamos
+12) Si queremos tener o sacar una rama, un proyecto que va atener otras caracteristicas, digitamos (git branch nombreBranche), y ahora tenemos una rama mas, tendremos otro poryecto
+13) AHora para poder cmabiarnos de ramas o proyecto, digitamso el siguiente coamndo (git checkout nombreBranche), y automaticamente estaremos en dicha rama o ene l nombre de uestro branch o proyecto
