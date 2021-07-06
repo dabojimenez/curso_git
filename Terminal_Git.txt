@@ -25,3 +25,5 @@ ahora si escribimos (git status), nos mostrara dicho archivo en rojo, nuestro {.
 11) Con el comando (git branch), nos mostrara las ramas o los proyectos que tengo, y el nombre de color verde es el que nos indica sobre que branch estamos
 12) Si queremos tener o sacar una rama, un proyecto que va atener otras caracteristicas, digitamos (git branch nombreBranche), y ahora tenemos una rama mas, tendremos otro poryecto
 13) AHora para poder cmabiarnos de ramas o proyecto, digitamso el siguiente coamndo (git checkout nombreBranche), y automaticamente estaremos en dicha rama o ene l nombre de uestro branch o proyecto
+14) si borramos o eliminamos nuestro proyecto de nuestra computadora podmeos clonarlo con el siguiente comando (git clone <urlRepositorio>.git), debe finalizar en (.git)
+Y LISTO ESO ES TODOOOOO MUCHCAHOOOO
