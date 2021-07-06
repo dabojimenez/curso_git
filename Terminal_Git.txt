@@ -28,3 +28,5 @@ es una semenjate a esta {git remote add origin https://github.com/TU_NOMBRE/NOMB
   TU_NOMBRE: Nos aparecera nuestro nombre inidcado en nuestra cuenta de GitLab o GitHub
   NOMBRE_DE_TU_REPOSITORIO: Es el nombre del repositorio que tu le diste al momento de crear dicho repositorio
   .git: Si o si debe ser (.git) el link o url, para que funcione, si al momento de escribirla o pegarla en la terminal no tienes, procura no dar enter y copiar de manra CORRECTA
+12) AHora debemos ejecutar el ultimo comando, que es el que nos permite enviar todo a nuestro repositorio en las plataformas anteriormente mencioandas
+dicho comando es (git push -u origin main)
