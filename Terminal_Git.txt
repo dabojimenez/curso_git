@@ -1,0 +1,11 @@
+1) Usaremos como primer comando (git init), para poder indicar al proyecto que voy a usar git, que voy a poder controlar sus versiones, en pocas palabras inicializamos el repositorio
+2) AHora nos creara una carpte oculta, llamada .git, la cual NO DEBEMOS MODIFICAR PARA NADA
+3) El comando (git status), para poder ver el estado de nuestros archivos, nos indicara si tenemos archivos sin agregar al entrono que estaran de color rojo
+o aun no hemos realizado en nuestro entorno de trabajo [staging area]
+4) AHhora con el comando (git add <nombreArchivo>), estamos agregando dicho archivo a nuestra area de trabajo, y si ejecutamos (git status), el color de dicho archivo sera de color verde
+Para evitar ejecutar cada momento (git add <nombreArchivo>), podemos ejecutar el siguiente comando (git add -A), ahora todos todosss los archivos estaran de color verde
+5) COn el siguiente coamndo (git commit), creamos nuestro primer punto de control de nuestro codigo, PEROOOOOO primero debemos configurarlo
+Git despues de ecribir el comando, nos pregunta que quien eres?, y nos da dos comandos basicos que debemos escribir para poder realizar nuestro commit
+  git config --global user.email "tuCorreo@correo.com"    ---> Para configurar el correo
+  git config --global user.name "Tu nombre"               ---> Para configurar el nombre
+SI COMETIMOS UN ERROR, BASTA CON VOLVER A ESCRIBIR LA MISMA LINEA DE COMANDO PERO ESTA VEZ DE MANERA CORRECTA
